@@ -1,0 +1,75 @@
+You are using pip version 6.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting flask
+  Downloading Flask-0.12.2-py2.py3-none-any.whl (83kB)
+Collecting click>=2.0 (from flask)
+  Downloading click-6.7-py2.py3-none-any.whl (71kB)
+Collecting itsdangerous>=0.21 (from flask)
+  Downloading itsdangerous-0.24.tar.gz (46kB)
+Collecting Werkzeug>=0.7 (from flask)
+  Downloading Werkzeug-0.12.2-py2.py3-none-any.whl (312kB)
+Requirement already satisfied (use --upgrade to upgrade): Jinja2>=2.4 in /usr/lib/python2.7/dist-packages (from flask)
+Requirement already satisfied (use --upgrade to upgrade): markupsafe in /usr/lib64/python2.7/dist-packages (from Jinja2>=2.4->flask)
+Installing collected packages: click, itsdangerous, Werkzeug, flask
+  Exception:
+  Traceback (most recent call last):
+    File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 246, in main
+      status = self.run(options, args)
+    File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 352, in run
+      root=options.root_path,
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_set.py", line 693, in install
+      **kwargs
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_install.py", line 817, in install
+      self.move_wheel_files(self.source_dir, root=root)
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_install.py", line 1018, in move_wheel_files
+      isolated=self.isolated,
+    File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 237, in move_wheel_files
+      clobber(source, lib_dir, True)
+    File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 208, in clobber
+      os.makedirs(destdir)
+    File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+      mkdir(name, mode)
+  OSError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/site-packages/click-6.7.dist-info'
+
+You are using pip version 6.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Collecting flask-pymongo
+  Downloading Flask_PyMongo-0.5.1-py2-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): Flask>=0.8 in /usr/local/lib/python2.7/site-packages (from flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): PyMongo>=2.5 in /usr/local/lib64/python2.7/site-packages (from flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): click>=2.0 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): itsdangerous>=0.21 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): Werkzeug>=0.7 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): Jinja2>=2.4 in /usr/lib/python2.7/dist-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): markupsafe in /usr/lib64/python2.7/dist-packages (from Jinja2>=2.4->Flask>=0.8->flask-pymongo)
+Installing collected packages: flask-pymongo
+  Exception:
+  Traceback (most recent call last):
+    File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 246, in main
+      status = self.run(options, args)
+    File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 352, in run
+      root=options.root_path,
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_set.py", line 693, in install
+      **kwargs
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_install.py", line 817, in install
+      self.move_wheel_files(self.source_dir, root=root)
+    File "/usr/lib/python2.7/dist-packages/pip/req/req_install.py", line 1018, in move_wheel_files
+      isolated=self.isolated,
+    File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 237, in move_wheel_files
+      clobber(source, lib_dir, True)
+    File "/usr/lib/python2.7/dist-packages/pip/wheel.py", line 208, in clobber
+      os.makedirs(destdir)
+    File "/usr/lib64/python2.7/os.py", line 157, in makedirs
+      mkdir(name, mode)
+  OSError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/site-packages/flask_pymongo'
+
+You are using pip version 6.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+Requirement already satisfied (use --upgrade to upgrade): flask-pymongo in /usr/local/lib/python2.7/site-packages
+Requirement already satisfied (use --upgrade to upgrade): Flask>=0.8 in /usr/local/lib/python2.7/site-packages (from flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): PyMongo>=2.5 in /usr/local/lib64/python2.7/site-packages (from flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): click>=2.0 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): itsdangerous>=0.21 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): Werkzeug>=0.7 in /usr/local/lib/python2.7/site-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): Jinja2>=2.4 in /usr/lib/python2.7/dist-packages (from Flask>=0.8->flask-pymongo)
+Requirement already satisfied (use --upgrade to upgrade): markupsafe in /usr/lib64/python2.7/dist-packages (from Jinja2>=2.4->Flask>=0.8->flask-pymongo)
